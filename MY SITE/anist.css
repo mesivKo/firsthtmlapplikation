@@ -1,0 +1,19 @@
+div {
+    display: flex;
+    background-color: aquamarine;
+    height:100px;
+    width: 100px;
+    border: 0px;
+    border-radius: 0px;
+    transition: border-radius 1s, color 0.4s;
+    align-items: center;
+    justify-content: center;
+    color: aquamarine;
+}
+div:hover{
+    border-radius: 100px;
+    color: black;
+}
+p {
+   font-size: 20px; 
+}
